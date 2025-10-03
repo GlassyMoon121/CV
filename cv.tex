@@ -97,32 +97,6 @@
 %debug page outer frames
 %\usepackage{showframe}
 
-
-% job listing environments
-\newenvironment{jobshort}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
-    \end{tabularx}
-    }
-    {
-    }
-
-\newenvironment{joblong}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
-    \end{tabularx}
-    \begin{minipage}[t]{\linewidth}
-    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
-    }
-    {
-    \end{itemize}
-    \end{minipage}    
-    }
-
-
-
 %----------------------------------------------------------------------------------------
 %	BEGIN DOCUMENT
 %----------------------------------------------------------------------------------------
@@ -142,13 +116,15 @@
 % \end{tabularx}
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\Huge{Xuan Hung (Bryan) Lam} \\[7.5pt]
+\href{https://github.com/GlassyMoon121}{\raisebox{-0.05\height}\faGithub\ GlassyMoon121} \ $|$ \ 
+\href{https://linkedin.com/in/xuan-hung-lam-49988b252}{\raisebox{-0.05\height}\faLinkedin\ Xuan Hung (Bryan) Lam} \ $|$ \ 
+ 
+\href{mailto:bryanlam.cs@outlook.com}{\raisebox{-0.05\height}\faEnvelope \ bryanlam.cs@outlook.com} \ $|$ \ 
+\href{tel:+16199046858}{\raisebox{-0.05\height}\faMobile \ (619) 904 6858} \\
 \end{tabularx}
+
+
 
 %----------------------------------------------------------------------------------------
 % EXPERIENCE SECTIONS
@@ -156,60 +132,83 @@
 
 %Interests/ Keywords/ Summary
 \section{Summary}
-This CV can also be automatically complied and published using GitHub Actions. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
-
-%Experience
-\section{Work Experience}
-
-\begin{jobshort}{Designation}{Jan 2021 - present}
-long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
-\end{jobshort}
-
-
-\begin{joblong}{Designation}{Mar 2019 - Jan 2021}
-\item long long line of blah blah that will wrap when the table fills the column width
-\item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
-\end{joblong}
-  
-%Projects
-\section{Projects}
-
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
-\end{tabularx}
+I have achieved a Diploma of Engineering at Curtin College from Western Australia and currently chasing bachelor degree in Computer Science at CSUSM. I am easily intrigue by new information and enjoy learning new concepts.
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 \section{Education}
 \begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
+2022 - present & Bachelor's Degree (Computer Science) at \textbf{California State University San Marcos, US}\\
 
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
+2016 - 2019 & Diploma of Engineering at \textbf{Curtin College, AU}\\ 
 
-2022 & Class 12th Some Board \hfill  (Grades) \\
+2015 & Class 12th at \textbf{Saigon Internation College, VN} \\
 
-2021 & Class 10th Some Board \hfill  (Grades) \\
+2013 - 2014 & Class 10th and 11th at \textbf{Mount Lawley Senior High School, AU} \\
+
+2012 - 2013 & English preparation class at \textbf{Phoenix Academy, AU} \\
+
+2008 - 2012 & Class 6th-9th at \textbf{Tran Dai Nghia Specialized High School, VN} \\
 \end{tabularx}
 
-%----------------------------------------------------------------------------------------
-%	PUBLICATIONS
-%----------------------------------------------------------------------------------------
-\section{Publications}
-\begin{refsection}[citations.bib]
-\nocite{*}
-\printbibliography[heading=none]
-\end{refsection}
 
 %----------------------------------------------------------------------------------------
 %	SKILLS
 %----------------------------------------------------------------------------------------
 \section{Skills}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+Programming Language: &  \normalsize{C, C++, Java, Python}\\
+Language:  &  \normalsize{Vietnamese - native, English - full professional proficiency}\\  
+Other:& Management skills, team work, work under pressure, money handling, research. \\
 \end{tabularx}
+
+%Experience
+\section{Work Experience}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Australia Post} & \hfill Perth, Western Australia \\
+\textbf{Data analyst / Fleet manager} & \hfill  Feb 2022 - July 2022 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Using java to automate payslip for drivers, driver's performance report and remind services for vehicles.
+        \item[--] Analyze data to improve time and fuel efficiency.
+        \item[--] Manage drivers' schedules.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Aramex} & \hfill Perth, Western Australia \\
+\textbf{General support} & \hfill  Feb 2021 - Jan 2022 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Using java to automate payslip for drivers, driver's performance report and remind services for vehicles.
+        \item[--] Handling calls from customer in assigned suburbs.
+        \item[--] Road side assitant.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Cott's Takeaway} & \hfill Perth, Western Australia \\
+\textbf{General manager} & \hfill  August 2016 - August 2020 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Using C to automate payslip, sum up weekly cash up report, and schedule employers' shifts.
+        \item[--] Using excel for stock take.
+        \item[--] Handle customer complaints.
+        \item[--] Work under pressure.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
 
 \vfill
 \center{\footnotesize Last updated: \today}
